@@ -1,11 +1,13 @@
-import 'App.scss';
+import './App.scss';
+import logo from './logo.svg';
 
 const App = function(){
     const app = document.createElement('h1');
     app.className = 'App';
-    app.innerHTML = '<header class = "App-header">' +
-    
-    '</header>';
+    app.innerHTML = `<header class = "App-header">
+    <img src="${logo}" class="App-logo" alt= "logo" />
+    <p>Hello World</p>
+    </header>`;
     return app;
 }
 
