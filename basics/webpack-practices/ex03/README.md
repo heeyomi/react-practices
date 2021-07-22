@@ -9,7 +9,7 @@ $ npm i -D webpack webpack-cli webpack-dev-server
 
 2. 디렉토리 구조
 <pre>
-    /ex02
+    /ex03
       |--- package.json
       |--- package-lock.json
       |--- node-modules
@@ -20,7 +20,6 @@ $ npm i -D webpack webpack-cli webpack-dev-server
       |        |--- index.js
       |        |--- App.js
       |--- webpack.config.js [webpack 설정 파일]
-      |--- dev-server.mjs
 </pre>
 
 3. webpack.config.js
