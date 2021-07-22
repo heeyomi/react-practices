@@ -1,15 +1,15 @@
-## webpack-practice: ex04
+## webpack-practice: ex05
 1. 프로젝트 생성
 ```bash
-$ mkdir ex04
-$ cd ex04
+$ mkdir ex05
+$ cd ex05
 $ npm init -y
-$ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader
+$ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader sass-loader node-sass
 ```
 
 2. 디렉토리 구조
 <pre>
-    /ex04
+    /ex05
       |--- package.json
       |--- package-lock.json
       |--- node-modules
@@ -18,9 +18,9 @@ $ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader
       |        |--- bundle.js
       |--- src
       |        |--- assets
-      |                |--- css
-      |                     |--- Common.css
-      |                     |--- App.css
+      |                |--- scss
+      |                      |--- _variables.scss
+      |                      |--- App.scss
       |        |--- index.js
       |        |--- App.js
       |--- webpack.config.js [webpack 설정 파일]
@@ -40,8 +40,15 @@ module.exports = {
         rules: [{
             test: /\.css$/i,
             use:['style-loader', 'css-loader']
+        }, {
+            test: /\.s[ac]ss/i,
+            use : [
+                'style-loader',
+                'css-loader',
+                'sass-loader'
+            ]
         }]
-    },    
+    },
     devServer: {
         contentBase: path.resolve('public'),
         host: "0.0.0.0",
@@ -51,7 +58,7 @@ module.exports = {
         hot: false,
         compress: true,
         historyApiFallback: true
-    }    
+    }
 }
 ```
 
