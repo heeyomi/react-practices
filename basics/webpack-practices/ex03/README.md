@@ -1,10 +1,10 @@
 ## webpack-practice : ex02
 1. 빌드하기
 ```bash
-$ mkdir ex02
-$ cd ex02
+$ mkdir ex03
+$ cd ex03
 $ npm init -y
-$ npm i -D webpack webpack-cli express
+$ npm i -D webpack webpack-cli webpack-dev-server
 ```
 
 2. 디렉토리 구조
@@ -32,6 +32,16 @@ module.exports = {
     output : {
         path : path.resolve('public'),
         filename : 'bundle.js'
+    },
+    devServer : {
+        contentBase : path.resolve('public'),
+        host: '0.0.0.0',
+        port : 9999,
+        inline : true,
+        liveReload :true,
+        hot : false,
+        compress : true,
+        historyApiFallback : true
     }
 }
 ```
@@ -40,9 +50,8 @@ module.exports = {
 ```bash
 $ npx webpack
 ```
-webpack.config.js의 output 섹션에 지정된 ./public/bundle.js로 번들링 됨
 
 5. test server 실행
 ```bash
-$ node dev-server.mjs
+$ npx webpack serve --progress
 ```
