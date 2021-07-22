@@ -1,5 +1,5 @@
 ## webpack-practice : ex01
-1. 빌드하기
+1. 프로젝트 생성
 ```bash
 $ mkdir ex01
 $ cd ex01
