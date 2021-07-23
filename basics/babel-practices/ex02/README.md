@@ -1,4 +1,4 @@
-## CLI
+## CLI 사용법
 1. 설치
 ```bash
 $ npm i -D @babel/core @babel/cli
