@@ -1,16 +1,16 @@
-## ex05 : React(API 기반) 애플리케이션으로 리팩토링
+## ex06 : React(API 기반) 애플리케이션으로 리팩토링
 1. 프로젝트 생성
 ```bash
-$ mkdir ex05
-$ cd ex05
+$ mkdir ex06
+$ cd ex06
 $ npm init -y
-$ npm i -D webpack webpack-cli webpack-dev-server
+$ npm i -D webpack webpack-cli webpack-dev-server babel-loader @babel-core @babel/preset-env @babel/preset-react
 $ npm i react react-dom
 ```
 
 2. 프로젝트 디렉토리
 <pre>
-    /ex05
+    /ex06
       |--- package.json
       |--- package-lock.json
       |--- node-modules
