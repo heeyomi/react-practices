@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import React from 'React';
 import './App.css';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          React 1Week 과제 입니다.
+          React Week 과제 입니다.
         </p>
         <h1>Hello World</h1>
       </header>

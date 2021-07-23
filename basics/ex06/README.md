@@ -4,7 +4,7 @@
 $ mkdir ex06
 $ cd ex06
 $ npm init -y
-$ npm i -D webpack webpack-cli webpack-dev-server babel-loader @babel-core @babel/preset-env @babel/preset-react
+$ npm i -D webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env @babel/preset-react
 $ npm i react react-dom
 ```
 
