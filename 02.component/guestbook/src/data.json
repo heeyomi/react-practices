@@ -1,0 +1,18 @@
+[
+    {
+        "no" : 1,
+        "name" : "ryan",
+        "message" : "Hello, Kakao Friends~",
+        "regDate" : "2021-07-22" 
+    }, {
+        "no" : 2,
+        "name" : "chunsik",
+        "message" : "Hello, Ryan~\nNice to Meet You",
+        "regDate" : "2021-07-23" 
+    }, {
+        "no" : 3,
+        "name" : "apeach",
+        "message" : "peach peach apeach!!",
+        "regDate" : "2021-07-23"
+    }
+]
