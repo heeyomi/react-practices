@@ -1,7 +1,8 @@
 import React from 'react';
+import Guestbook from './Guestbook';
 
 export default function App() {
     return (
-        <h1>Guestbook</h1>
+        <Guestbook />
     );
 }

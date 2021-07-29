@@ -14,5 +14,10 @@
         "name" : "apeach",
         "message" : "peach peach apeach!!",
         "regDate" : "2021-07-23"
+    }, {
+        "no" : 4,
+        "name" : "muzi",
+        "message" : "muzi muzi muzi muzi muzi muzi",
+        "regDate" : "2021-07-26"
     }
 ]

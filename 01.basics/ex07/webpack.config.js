@@ -5,7 +5,8 @@ module.exports = {
     entry : path.resolve('src/index.js'),
     output : {
         path : path.resolve('public'),
-        filename : 'bundle.js'
+        filename : 'bundle.js',
+        assetModuleFilename : 'assets/images/[hash][ext]'
     },
     module : {
         rules : [{
@@ -13,8 +14,8 @@ module.exports = {
             exclude : /node_modules/,
             loader : 'babel-loader'
         }, {
-            test: /\.css$/i,
-            use:['style-loader', {loader: 'css-loader', options:{ modules : true } }]
+            test: /\.(sa|sc|c)ss$/i,
+            use:['style-loader', 'css-loader', 'sass-loader']
         }, {
             test:/\.(svg|jpe?g|gif|png|tiff?|bmp|ico|)$/i,
             loader : 'file-loader',
