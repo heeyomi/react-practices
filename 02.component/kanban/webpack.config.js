@@ -8,7 +8,8 @@ module.exports = (env) =>  {
         entry: entry,
         output: {
             path: path.resolve('public'),
-            filename: 'bundle.js'
+            filename: 'bundle.js',
+            assetModuleFilename: "assets/images/[hash][ext]",
         },
         module: {
             rules:[{
