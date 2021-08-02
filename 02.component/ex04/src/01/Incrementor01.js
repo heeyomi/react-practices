@@ -17,14 +17,17 @@ export default class extends Component {
 
     render() {
         return(
-
             <div>
-            <button onClick = { this.onClickButton.bind(this) }>
-            <strong> +</strong>
-            </button>
-            { ' ' }
-            <span>{this.state.value}</span>
-        </div>
+                <button onClick={ this.onClickButton.bind(this) }>
+                    <strong>+</strong>
+                </button>
+                { ' ' }
+                <span>{ this.state.value }</span>
+                { ' ' }
+                <button>
+                    <strong>-</strong>
+                </button>
+             </div>
         )
     }
 }
