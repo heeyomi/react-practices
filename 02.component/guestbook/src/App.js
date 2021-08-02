@@ -4,6 +4,10 @@ import './assets/scss/App.scss';
 
 export default function App() {
     return (
-            <Guestbook />
+        <div className={"App"}>
+            <div>
+                <Guestbook />
+            </div>
+        </div>
     );
 }
