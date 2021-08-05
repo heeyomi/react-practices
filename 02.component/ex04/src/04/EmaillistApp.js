@@ -5,11 +5,20 @@ import data from './assets/json/data';
 
 export default function() {
     const [emails] = useState(data);
+    const [keyword, setKeyword] = useState('');
     
+    const notifyKeywordChanged = function(keyword) {
+        setKeyword(keyword);
+    };
+
     return(
         <div className = {'EmaillistApp'}>
-            <SearchBar />
-            <Emaillist emails = { data } />
+            <SearchBar
+                callback = { notifyKeywordChanged }
+                keyword = { keyword } />
+            <Emaillist
+                emails = { emails }
+                keyword = { keyword }/>
         </div>
     )
 }
