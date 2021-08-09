@@ -1,0 +1,57 @@
+2021-08-09 15:04:45 error: Error: C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\backend\views\error\404.ejs:10
+    8| <body>
+    9| 	<div id="container">
+ >> 10| 		<%-include('../includes/header')%>
+    11| 		<div id="wrapper">
+    12| 			<div id="content">
+    13| 				<div style="line-height:200px; text-align: center;">
+
+Could not find the include file "../includes/header"
+    at getIncludePath (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:183:13)
+    at includeFile (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:309:19)
+    at include (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:690:16)
+    at eval (eval at compile (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:16)
+    at 404 (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\express\lib\application.js:592:3)
+2021-08-09 15:05:02 error: Error: C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\backend\views\error\404.ejs:10
+    8| <body>
+    9| 	<div id="container">
+ >> 10| 		<%-include('../includes/header')%>
+    11| 		<div id="wrapper">
+    12| 			<div id="content">
+    13| 				<div style="line-height:200px; text-align: center;">
+
+Could not find the include file "../includes/header"
+    at getIncludePath (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:183:13)
+    at includeFile (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:309:19)
+    at include (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:690:16)
+    at eval (eval at compile (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:16)
+    at 404 (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\express\lib\application.js:592:3)
+2021-08-09 15:05:02 error: Error: C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\backend\views\error\404.ejs:10
+    8| <body>
+    9| 	<div id="container">
+ >> 10| 		<%-include('../includes/header')%>
+    11| 		<div id="wrapper">
+    12| 			<div id="content">
+    13| 				<div style="line-height:200px; text-align: center;">
+
+Could not find the include file "../includes/header"
+    at getIncludePath (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:183:13)
+    at includeFile (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:309:19)
+    at include (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:690:16)
+    at eval (eval at compile (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:16)
+    at 404 (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\douzone2021\vscode-projects\react-practices\07.integration\app01.emaillist\node_modules\express\lib\application.js:592:3)
